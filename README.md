@@ -17,7 +17,7 @@ Windows, Injected Cryptic executor
 ### 1.0.0
 
 Created this extension, i has zero experience in javascript lol.
-Pasted from Roblox WebSocket Execution, sorry
+Idea taken from Roblox WS Execution.
 
 ## Build
 
