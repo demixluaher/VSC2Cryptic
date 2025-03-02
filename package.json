@@ -1,0 +1,34 @@
+{
+  "name": "vsc2cryptic",
+  "displayName": "VSC2Cryptic",
+  "description": "Allows to execute scripts from selected tab and execute it with roblox executor called cryptic",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vsc2cryptic.execute",
+        "title": "Execute"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "dependencies": {
+    "got": "^14.4.6",
+    "node-fetch": "^3.3.2",
+    "vsce": "^2.15.0"
+  }
+}
